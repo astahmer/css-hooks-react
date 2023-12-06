@@ -42,6 +42,10 @@ export default defineConfig({
   // Files to exclude
   exclude: [],
 
+  conditions: {
+    dark: "@media (prefers-color-scheme: dark)",
+  },
+
   // Useful for theme customization
   theme: {
     extend: {
